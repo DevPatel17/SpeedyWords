@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="SPEEDY INSTRUCTIONS"
+                android:textColor="#DF4225"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="25dp"
+
+                />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Press the 'Next Card' button to flip the cards"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:padding="20dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. First player to call out a word starting with the letter that matches in color to the category, wins the round and gets the point "
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:padding="20dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. The player with the most points at the end of the"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:padding="20dp"
+                />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:layout_gravity="center"
+                android:background="#C5462F"
+                android:layout_marginTop="30dp"
+                android:onClick="tosplash"
+                android:layout_marginBottom="35dp"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
