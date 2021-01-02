@@ -13,7 +13,7 @@ public class Deck {
     public void shuffle() {
         //An array for each instance variable. A card's pieces
         int picnumber[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27};
-        String category[] = {"animal", "animal", "animal", "city", "city", "city", "country", "country", "country", "famous", "famous", "famous", "food", "food", "food", "movie", "movie", "movie", "name", "name", "name", "object", "object", "object", "plant", "plant", "plant"};
+        String category[] = {"Animal", "Animal", "Animal", "City", "City", "City", "Country", "Country", "Country", "Famous", "Famous", "Famous", "Food", "Food", "Food", "Movie", "Movie", "Movie", "Name", "Name", "Name", "Object", "Object", "Object", "Plant", "Plant", "Plant"};
 
         //Randomizes the order of the arrays
         for (int i = 0; i < 100; i++) {

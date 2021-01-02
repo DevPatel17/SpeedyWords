@@ -6,8 +6,8 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background"
     android:layout_gravity="center"
+    android:background="#e7e6e4"
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
     <ScrollView
@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="SPEEDY INSTRUCTIONS"
-                android:textColor="#DF4225"
+                android:textColor="#7851a9"
                 android:textStyle="bold"
                 android:textSize="30dp"
                 android:layout_marginBottom="20dp"
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3. The player with the most points at the end of the"
+                android:text="3. Press the buttons below according to who won each round. The player with the most points at the end of the game wins."
                 android:layout_gravity="center"
                 android:textSize="30dp"
                 android:padding="20dp"
@@ -75,8 +75,8 @@
                 android:layout_height="wrap_content"
                 android:text="BACK"
                 android:layout_gravity="center"
-                android:background="#C5462F"
-                android:layout_marginTop="30dp"
+                android:background="#7851a9"
+                android:layout_marginTop="20dp"
                 android:onClick="tosplash"
                 android:layout_marginBottom="35dp"
                 />
